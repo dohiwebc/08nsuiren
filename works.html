@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Web制作の制作実績一覧。Suiren Notes。">
+  <title>Works | Suiren Notes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page page--works">
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <span class="header__logo-main">Suiren Notes</span>
+        <span class="header__logo-sub">by 08nsuiren</span>
+      </a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+        <a href="works.html" class="nav__link nav__link--active">Works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page__main">
+    <div class="container page-hero">
+      <span class="page-hero__label">制作</span>
+      <h1 class="page-hero__title">Works</h1>
+      <p id="works-hero-lead" class="page-hero__lead" hidden>Web制作の記録。学びながらつくったものたち。</p>
+    </div>
+
+    <section class="section container" aria-label="制作実績一覧">
+      <div id="works-filter" class="filter" aria-label="カテゴリフィルター" hidden></div>
+      <div id="works-list">
+        <p class="message message--loading">読み込み中</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div id="footer-tiktok" class="footer__tiktok" hidden></div>
+      <span class="footer__mark">@08nsuiren</span>
+      <p class="footer__copy">&copy; <span id="year"></span> Suiren Notes</p>
+    </div>
+  </footer>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/microcms.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/work-detail.js"></script>
+  <script src="js/works.js"></script>
+</body>
+</html>
