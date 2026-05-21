@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://suiren08n.static.jp/sitemap.xml
